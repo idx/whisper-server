@@ -1,0 +1,14 @@
+[project]
+name = "whisper-server"
+version = "0.1.0"
+description = "whisper-server"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask-cors>=5.0.0",
+    "flask>=3.1.0",
+    "openai-whisper>=20240930",
+]
+
+[tool.uv.workspace]
+members = ["ffmpeg-python"]
